@@ -5,6 +5,7 @@ class CreateMembers < ActiveRecord::Migration[5.0]
       t.string :name
       t.belongs_to :place
       t.string :fun
+
       t.timestamps
     end
   end

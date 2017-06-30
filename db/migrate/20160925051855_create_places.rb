@@ -4,6 +4,7 @@ class CreatePlaces < ActiveRecord::Migration[5.0]
 
       t.string :img_url
       t.string :name
+
       t.timestamps
     end
   end
